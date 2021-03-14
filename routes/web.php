@@ -1,7 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\DB;
 
+use App\Models\Post;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -43,4 +45,17 @@ Route::get('guls', function() {
 
 Route::get('guls', function() {
     return "sana";
+});
+
+Route::get('post/add', function() {
+DB::table('post')->insert([
+'id'=>190103099,
+'title'=>'labfourth',
+'body'=>'female',
+   ]);
+});
+
+Route::get('post', function() {
+    $post = Post::find(1);
+    return $post;
 });
