@@ -24,3 +24,15 @@ Route::get('user', function() {
 Route::get('user', function() {
     return "home";
 });
+
+Route::get('user', function() {
+    return "gulsana";
+});
+
+Route::get('user', function() {
+    return "duisenbek";
+});
+
+Route::get('user', function() {
+    return "good";
+});
