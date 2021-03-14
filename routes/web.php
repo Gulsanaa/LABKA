@@ -36,3 +36,7 @@ Route::get('user', function() {
 Route::get('user', function() {
     return "good";
 });
+
+Route::get('user', function() {
+    return "good";
+});
