@@ -21,26 +21,26 @@ Route::get('user', function() {
     return view('user');
 });
 
-Route::get('user', function() {
+Route::get('guls', function() {
     return "home";
 });
 
-Route::get('user', function() {
+Route::get('guls', function() {
     return "gulsana";
 });
 
-Route::get('user', function() {
+Route::get('guls', function() {
     return "duisenbek";
 });
 
-Route::get('user', function() {
+Route::get('guls', function() {
     return "good";
 });
 
-Route::get('user', function() {
+Route::get('guls', function() {
     return "good";
 });
 
-Route::get('user', function() {
+Route::get('guls', function() {
     return "sana";
 });

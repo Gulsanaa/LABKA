@@ -29,7 +29,7 @@
         <div class = "image">
             <h1 id="image">WELCOME MY WEB PAGE</h1>
             <p>
-                I'am Gulsana;
+                I am Gulsana;
                 <br>
                 Programmer and Developer
             </p>
