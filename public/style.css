@@ -1,0 +1,66 @@
+body{
+    margin: 0 auto;
+    min-width: 1400px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    padding: 15px 150px;
+    border-bottom: 4px solid black;
+    font-style: italic;
+}
+.image{
+    background-image: url(https://images.hdqwalls.com/download/best-nature-image-1440x900.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -200px;
+    padding: 100px 0 0 500px;
+    color: lightyellow;
+    font-size: 20px;
+    font-style: italic ;
+    
+}
+.image h1{
+  display: inline-block;
+  
+}
+.image h1{
+    margin-left: -60px;
+    letter-spacing: 3px;
+    word-spacing: 6px;
+}
+.image p{
+    text-align: center;
+    border:2px solid white;
+    padding: 10px;
+    display: inline-block;
+    margin: 0px 150px 0px 5px;
+    margin-top: 20px;
+}
+.image button{
+    margin-left: -380px;
+    margin-bottom: -250px;
+    
+}
+.solution{
+    font-style: italic;
+    display: inline-block;
+    margin-left: 650px;
+    margin-top: 30px;
+    
+}
+.cards { 
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 250px 0px 250px;
+    font-family: initial; 
+    letter-spacing: 1px;
+    
+}
