@@ -4,7 +4,6 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\DB;
 
 use App\Models\Post;
-
 use App\Http\Controllers\PostController;
 /*
 |--------------------------------------------------------------------------
@@ -63,3 +62,13 @@ Route::get('post/create', function(){
 });
 
 Route::post('post/create', [PostController::class, 'store'])->name('add-post');
+
+Route::get('post/{id}', [PostController::class,'get_post']);
+
+Route::get('/', function () {
+    return view('main');
+});
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
