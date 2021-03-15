@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\DB;
 
 use App\Models\Post;
 
-use App\Http\Controller\PostController;
+use App\Http\Controllers\PostController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -58,5 +58,8 @@ DB::table('post')->insert([
 });
 
 Route::get('post', [PostController::class, 'index']);
+Route::get('post/create', function(){
+    return view('post/create');
+});
 
-
+Route::post('post/create', [PostController::class, 'store'])->name('add-post');
