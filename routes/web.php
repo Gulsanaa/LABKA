@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\DB;
 
 use App\Models\Post;
+
+use App\Http\Controller\PostController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -55,7 +57,6 @@ DB::table('post')->insert([
    ]);
 });
 
-Route::get('post', function() {
-    $post = Post::find(1);
-    return $post;
-});
+Route::get('post', [PostController::class, 'index']);
+
+
