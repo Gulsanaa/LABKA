@@ -33,9 +33,5 @@ class PostController extends Controller
 
         return view('post.detail')->with(['post'=>$post]);
     }
-    public function destroy($id)
-    {
-        return 'response';
-    }
-
+    
 }

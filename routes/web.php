@@ -56,19 +56,3 @@ DB::table('post')->insert([
    ]);
 });
 
-Route::get('post', [PostController::class, 'index']);
-Route::get('post/create', function(){
-    return view('post/create');
-});
-
-Route::post('post/create', [PostController::class, 'store'])->name('add-post');
-
-Route::get('post/{id}', [PostController::class,'get_post']);
-
-Route::get('/', function () {
-    return view('main');
-});
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
