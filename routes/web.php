@@ -56,3 +56,4 @@ DB::table('post')->insert([
    ]);
 });
 
+Route::get('post', [PostController::class, 'index']);
