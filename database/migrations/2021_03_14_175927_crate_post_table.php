@@ -17,7 +17,7 @@ class CratePostTable extends Migration
         $table->id();
         $table->string('title');
         $table->string('body');
-        $table->timestamps();
+        
         });
     }
 
@@ -28,6 +28,6 @@ class CratePostTable extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('post');
     }
 }

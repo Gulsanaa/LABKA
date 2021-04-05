@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\Models\Client;
+use App\Models\Post;
 
 class ApiController extends Controller
 {
@@ -24,7 +24,7 @@ class ApiController extends Controller
       $post = Post::find($request->post_id);
 
       if ($post == null){
-          return response(['message'=> 'There is no post'], 400);
+          return response(['message'=> 'There is no post'], 404);
       }
       return response($post, 200);
   }
