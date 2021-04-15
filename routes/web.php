@@ -64,6 +64,10 @@ Route::get('post/create', function(){
 Route::post('post/create', [PostController::class, 'store'])->name('add-post');
 
 Route::get('/{lang}', function ($lang){
-    App:setlocale($lang);
-    return view('home');
+    App::setlocale($lang);
+    return view('user');
 });
+
+
+
+

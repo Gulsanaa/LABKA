@@ -80,8 +80,9 @@ return [
     |
     */
 
+    'locale' => 'kz',
+    'locale' => 'ru',
     'locale' => 'en',
-
     /*
     |--------------------------------------------------------------------------
     | Application Fallback Locale
@@ -93,8 +94,9 @@ return [
     |
     */
 
+    'fallback_locale' => 'kz',
+    'fallback_locale' => 'ru',
     'fallback_locale' => 'en',
-
     /*
     |--------------------------------------------------------------------------
     | Faker Locale

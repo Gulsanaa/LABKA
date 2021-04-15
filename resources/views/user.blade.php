@@ -18,28 +18,28 @@
     </head>
     <body>
         <div class = "menu">
-            <div>ABOUT ME</div>
-            <div>BLOG</div>
-            <div>EDUCATION</div>
-            <div>INTERESTS</div>
-            <div>SKILSS</div>
-            <div>CONTACT</div>
+            <div>{{__('lang.div')}}</div>
+            <div>{{__('lang.div')}}</div>
+            <div>{{__('lang.div')}}</div>
+            <div>{{__('lang.div')}}</div>
+            <div>{{__('lang.div')}}</div>
+            <div>{{__('lang.div')}}</div>
             </div>
 
         <div class = "image">
-            <h1 id="image">WELCOME MY WEB PAGE</h1>
-            <p>
+            <h1 id="image">{{__('lang.h1')}}</h1>
+            <p>{{__('lang.p')}}
                 I am Gulsana;
                 <br>
                 Programmer and Developer
             </p>
             
-            <button type="button" class="btn btn-secondary">JOIN</button>
+            <button type="button" class="btn btn-secondary">{{__('lang.join')}}</button>
         </div>
         >
         
         <div class = "solution">
-        <h5>ABOUT ME</h5>
+        <h5>{{__('lang.h5')}}</h5>
        </div>
 
        <div class = "cards">
