@@ -16,3 +16,4 @@ class MailController extends Controller{
         Mail::to("190103099@stu.sdu.edu.kz")->send(new DemoEmail($objDemo));
     }
 }
+?>
