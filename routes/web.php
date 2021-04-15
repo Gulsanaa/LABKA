@@ -68,6 +68,8 @@ Route::get('/{lang}', function ($lang){
     return view('user');
 });
 
+Route::get('mail/send', 'MailController@send');
+
 
 
 
