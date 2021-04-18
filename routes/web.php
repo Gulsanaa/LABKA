@@ -70,6 +70,9 @@ Route::get('/{lang}', function ($lang){
 
 Route::get('mail/send', 'MailController@send');
 
+Route::get('project', function() {
+    return view('project');
+});
 
 
 

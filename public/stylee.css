@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    background-color:white;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    color:brown;
+    text-transform: uppercase;
+    padding: 15px 150px;
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 100px;
+    margin-right: -70px;
+}
+.img{
+  margin-top: 200px;
+ 
+}
+ h1{
+    color: brown;
+    font-size: 60px;
+    font-style: italic;
+    margin-top: -300px;
+    margin-left: 700px;
+}
+p{
+    color: brown;
+    margin-left:500px;
+    font-size: 28px;
+    font-style: italic;
+}
+.menu img{
+    margin-top: 0px;
+    margin-right: 500px;
+    
+}
+#coffee, #order_online, #about_us, #contacts{
+cursor: pointer;
+border-image: 60px;
+
+}
+#img{
+    position:relative;
+}
